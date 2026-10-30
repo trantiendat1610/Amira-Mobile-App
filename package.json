@@ -1,0 +1,22 @@
+{
+  "name": "mobile-design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens (color, typography, size, space, radius, shadow) for the Mobile App design system, generated for Web, iOS and Android.",
+  "type": "module",
+  "license": "MIT",
+  "main": "./dist/web/tokens.js",
+  "types": "./dist/web/tokens.d.ts",
+  "exports": {
+    ".": { "types": "./dist/web/tokens.d.ts", "default": "./dist/web/tokens.js" },
+    "./tokens.json": "./dist/web/tokens.json",
+    "./tokens.css": "./dist/web/tokens.css",
+    "./typography.css": "./dist/web/typography.css"
+  },
+  "files": ["dist/web", "tokens"],
+  "scripts": {
+    "build": "node build.js",
+    "check": "node build.js --check"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["design-tokens", "design-system", "dtcg", "figma", "swiftui", "jetpack-compose"]
+}

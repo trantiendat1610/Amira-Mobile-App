@@ -1,0 +1,6 @@
+{
+  "name": "Mobile App Design Tokens",
+  "cssPrefix": "ds",
+  "androidPrefix": "ds",
+  "kotlinPackage": "com.designsystem.tokens"
+}

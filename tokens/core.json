@@ -1,0 +1,159 @@
+{
+  "$description": "Mode-independent tokens, exported from the Figma file 'Design system (Mobile App)'.",
+  "font": {
+    "family": {
+      "base": { "$type": "fontFamily", "$value": "Google Sans Flex" }
+    },
+    "weight": {
+      "regular": { "$type": "fontWeight", "$value": 400 },
+      "semibold": { "$type": "fontWeight", "$value": 600 },
+      "bold": { "$type": "fontWeight", "$value": 700 }
+    },
+    "size": {
+      "sm": { "$type": "dimension", "$value": "12px" },
+      "base": { "$type": "dimension", "$value": "14px" },
+      "lg": { "$type": "dimension", "$value": "16px" },
+      "xl": { "$type": "dimension", "$value": "20px" },
+      "heading1": { "$type": "dimension", "$value": "32px" },
+      "heading2": { "$type": "dimension", "$value": "28px" },
+      "heading3": { "$type": "dimension", "$value": "24px" },
+      "heading4": { "$type": "dimension", "$value": "20px" },
+      "heading5": { "$type": "dimension", "$value": "16px" }
+    },
+    "lineHeight": {
+      "sm": { "$type": "dimension", "$value": "18px" },
+      "base": { "$type": "dimension", "$value": "20px" },
+      "lg": { "$type": "dimension", "$value": "24px" },
+      "xl": { "$type": "dimension", "$value": "28px" },
+      "heading1": { "$type": "dimension", "$value": "42px" },
+      "heading2": { "$type": "dimension", "$value": "34px" },
+      "heading3": { "$type": "dimension", "$value": "32px" },
+      "heading4": { "$type": "dimension", "$value": "28px" },
+      "heading5": { "$type": "dimension", "$value": "24px" }
+    }
+  },
+
+  "size": {
+    "xxs": { "$type": "dimension", "$value": "4px" },
+    "xs": { "$type": "dimension", "$value": "8px" },
+    "sm": { "$type": "dimension", "$value": "12px" },
+    "base": { "$type": "dimension", "$value": "16px" },
+    "ms": { "$type": "dimension", "$value": "16px" },
+    "md": { "$type": "dimension", "$value": "20px" },
+    "lg": { "$type": "dimension", "$value": "24px" },
+    "xl": { "$type": "dimension", "$value": "32px" },
+    "xxl": { "$type": "dimension", "$value": "56px" }
+  },
+
+  "controlHeight": {
+    "xs": { "$type": "dimension", "$value": "16px" },
+    "sm": { "$type": "dimension", "$value": "24px" },
+    "base": { "$type": "dimension", "$value": "32px" },
+    "lg": { "$type": "dimension", "$value": "40px" }
+  },
+
+  "lineWidth": {
+    "base": { "$type": "dimension", "$value": "1px" },
+    "bold": { "$type": "dimension", "$value": "2px" },
+    "focus": { "$type": "dimension", "$value": "4px" },
+    "controlOutline": { "$type": "dimension", "$value": "2px" }
+  },
+
+  "margin": {
+    "xxs": { "$type": "dimension", "$value": "{size.xxs}" },
+    "xs": { "$type": "dimension", "$value": "{size.xs}" },
+    "sm": { "$type": "dimension", "$value": "{size.sm}" },
+    "base": { "$type": "dimension", "$value": "{size.base}" },
+    "md": { "$type": "dimension", "$value": "{size.md}" },
+    "lg": { "$type": "dimension", "$value": "{size.lg}" },
+    "xl": { "$type": "dimension", "$value": "{size.xl}" },
+    "xxl": { "$type": "dimension", "$value": "{size.xxl}" }
+  },
+
+  "padding": {
+    "xxs": { "$type": "dimension", "$value": "{size.xxs}" },
+    "xs": { "$type": "dimension", "$value": "{size.xs}" },
+    "sm": { "$type": "dimension", "$value": "{size.sm}" },
+    "base": { "$type": "dimension", "$value": "{size.base}" },
+    "md": { "$type": "dimension", "$value": "{size.md}" },
+    "lg": { "$type": "dimension", "$value": "{size.lg}" },
+    "xl": { "$type": "dimension", "$value": "{size.xl}" },
+    "contentVerticalSM": { "$type": "dimension", "$value": "{size.xs}" },
+    "contentVertical": { "$type": "dimension", "$value": "{size.sm}" },
+    "contentVerticalLG": { "$type": "dimension", "$value": "{size.ms}" },
+    "contentHorizontalSM": { "$type": "dimension", "$value": "{size.base}" },
+    "contentHorizontal": { "$type": "dimension", "$value": "{size.ms}" },
+    "contentHorizontalLG": { "$type": "dimension", "$value": "{size.lg}" }
+  },
+
+  "radius": {
+    "xs": { "$type": "dimension", "$value": "4px" },
+    "xl": { "$type": "dimension", "$value": "8px", "$description": "Figma 'BorderRadiusXL' = 8px (smaller than SM). Kept as in Figma." },
+    "sm": { "$type": "dimension", "$value": "12px" },
+    "base": { "$type": "dimension", "$value": "16px" },
+    "lg": { "$type": "dimension", "$value": "24px" }
+  },
+
+  "typography": {
+    "base": {
+      "normal":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.base}", "lineHeight": "{font.lineHeight.base}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "none" } },
+      "strong":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.base}", "lineHeight": "{font.lineHeight.base}", "fontWeight": "{font.weight.semibold}", "fontStyle": "normal", "textDecoration": "none" } },
+      "underline": { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.base}", "lineHeight": "{font.lineHeight.base}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "underline" } },
+      "delete":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.base}", "lineHeight": "{font.lineHeight.base}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "line-through" } },
+      "italic":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.base}", "lineHeight": "{font.lineHeight.base}", "fontWeight": "{font.weight.regular}", "fontStyle": "italic", "textDecoration": "none" } }
+    },
+    "sm": {
+      "normal":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.sm}", "lineHeight": "{font.lineHeight.sm}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "none" } },
+      "strong":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.sm}", "lineHeight": "{font.lineHeight.sm}", "fontWeight": "{font.weight.semibold}", "fontStyle": "normal", "textDecoration": "none" } },
+      "underline": { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.sm}", "lineHeight": "{font.lineHeight.sm}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "underline" } },
+      "delete":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.sm}", "lineHeight": "{font.lineHeight.sm}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "line-through" } },
+      "italic":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.sm}", "lineHeight": "{font.lineHeight.sm}", "fontWeight": "{font.weight.regular}", "fontStyle": "italic", "textDecoration": "none" } }
+    },
+    "lg": {
+      "normal":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.lg}", "lineHeight": "{font.lineHeight.lg}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "none" } },
+      "strong":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.lg}", "lineHeight": "{font.lineHeight.lg}", "fontWeight": "{font.weight.semibold}", "fontStyle": "normal", "textDecoration": "none" } },
+      "underline": { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.lg}", "lineHeight": "{font.lineHeight.lg}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "underline" } },
+      "delete":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.lg}", "lineHeight": "{font.lineHeight.lg}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "line-through" } },
+      "italic":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.lg}", "lineHeight": "{font.lineHeight.lg}", "fontWeight": "{font.weight.regular}", "fontStyle": "italic", "textDecoration": "none" } }
+    },
+    "xl": {
+      "normal":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.xl}", "lineHeight": "{font.lineHeight.xl}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "none" } },
+      "strong":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.xl}", "lineHeight": "{font.lineHeight.xl}", "fontWeight": "{font.weight.semibold}", "fontStyle": "normal", "textDecoration": "none" } },
+      "underline": { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.xl}", "lineHeight": "{font.lineHeight.xl}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "underline" } },
+      "delete":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.xl}", "lineHeight": "{font.lineHeight.xl}", "fontWeight": "{font.weight.regular}", "fontStyle": "normal", "textDecoration": "line-through" } },
+      "italic":    { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.xl}", "lineHeight": "{font.lineHeight.xl}", "fontWeight": "{font.weight.regular}", "fontStyle": "italic", "textDecoration": "none" } }
+    },
+    "heading1": { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.heading1}", "lineHeight": "{font.lineHeight.heading1}", "fontWeight": "{font.weight.bold}", "fontStyle": "normal", "textDecoration": "none" } },
+    "heading2": { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.heading2}", "lineHeight": "{font.lineHeight.heading2}", "fontWeight": "{font.weight.bold}", "fontStyle": "normal", "textDecoration": "none" } },
+    "heading3": { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.heading3}", "lineHeight": "{font.lineHeight.heading3}", "fontWeight": "{font.weight.bold}", "fontStyle": "normal", "textDecoration": "none" } },
+    "heading4": { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.heading4}", "lineHeight": "{font.lineHeight.heading4}", "fontWeight": "{font.weight.bold}", "fontStyle": "normal", "textDecoration": "none" } },
+    "heading5": { "$type": "typography", "$value": { "fontFamily": "{font.family.base}", "fontSize": "{font.size.heading5}", "lineHeight": "{font.lineHeight.heading5}", "fontWeight": "{font.weight.bold}", "fontStyle": "normal", "textDecoration": "none" } }
+  },
+
+  "shadow": {
+    "base": {
+      "$type": "shadow",
+      "$value": [
+        { "color": "#00000005", "offsetX": "0px", "offsetY": "2px", "blur": "4px", "spread": "0px" },
+        { "color": "#00000005", "offsetX": "0px", "offsetY": "1px", "blur": "6px", "spread": "-1px" },
+        { "color": "#00000008", "offsetX": "0px", "offsetY": "1px", "blur": "2px", "spread": "0px" }
+      ]
+    },
+    "secondary": {
+      "$type": "shadow",
+      "$value": [
+        { "color": "#0000000d", "offsetX": "0px", "offsetY": "9px", "blur": "28px", "spread": "8px" },
+        { "color": "#0000001f", "offsetX": "0px", "offsetY": "3px", "blur": "6px", "spread": "-4px" },
+        { "color": "#00000014", "offsetX": "0px", "offsetY": "6px", "blur": "16px", "spread": "0px" }
+      ]
+    },
+    "tertiary": {
+      "$type": "shadow",
+      "$value": [
+        { "color": "#00000005", "offsetX": "0px", "offsetY": "2px", "blur": "4px", "spread": "0px" },
+        { "color": "#00000005", "offsetX": "0px", "offsetY": "1px", "blur": "6px", "spread": "-1px" },
+        { "color": "#00000008", "offsetX": "0px", "offsetY": "1px", "blur": "2px", "spread": "0px" }
+      ]
+    }
+  }
+}
